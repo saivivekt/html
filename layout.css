@@ -1,0 +1,66 @@
+body{
+background:url("lightash.jpg");
+}
+.container{
+	margin-left:10%;
+	margin-right:10%
+}
+#myimage{
+display: block;
+margin: auto;
+height:150px;
+width:150px
+}
+#css-img{
+font-size:14pt
+}
+#motiv{
+	border-bottom:2px solid
+}
+#name{
+text-align:center;
+font-size:19pt
+}
+#quote{
+	float:right;
+	font-size:14pt
+}
+#prior_bio{
+	clear:both;
+}
+#bio_para1{
+	font-size:13pt
+}
+#tbl{
+	height:300px;
+	width:600px;
+}
+tr:nth-child(even){
+background-color: #AAAAFF
+}
+.h3_tag{
+	width:200px;
+	border-bottom:2px solid
+}
+a:link{
+color:blue;
+}
+/*visited link*/
+a:visited{
+color:green;
+}
+/*selected link*/
+a:active{
+	color:yellow;
+}
+/*mouse over link*/
+a:hover{
+color:purple;
+}
+.words{
+	color:red;
+	font-weight:bold;
+}
+*.{
+	font-family:sans-serif;
+}
