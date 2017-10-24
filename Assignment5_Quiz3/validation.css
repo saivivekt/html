@@ -1,0 +1,19 @@
+.error_msg
+{
+       color:red;
+       text-decoration:underline;
+       margin-left:80px;
+       display:block;
+}
+.rdcolor{
+  color:red;
+}
+h3{
+  text-align:center;
+}
+table{
+  margin:auto;
+}
+body{
+background-color: white;
+}

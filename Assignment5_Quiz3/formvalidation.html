@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Form Validation</title>
+  <script type="text/javascript" src="form_validation.js">
+  </script>
+  <link type="text/css" rel="stylesheet" href="validation.css">
+</head>
+
+<body>
+  <div id="container">
+    <form name="myform" id="myform">
+      <h3>Please Fill in your Details</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td colspan="2"><label id="id_msg" class="error_msg"></label></td>
+          </tr>
+          <tr>
+            <td class="redcolor">ID: </td>
+            <td> <input type="text" name="userid" id="userid" size="30"></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"><label id="fname_msg" class="error_msg"></label></td>
+          </tr>
+          <tr>
+            <td class="redcolor">First Name: </td>
+            <td> <input type="text" name="fname" id="fname" size="30"></td>
+          </tr>
+
+          <tr>
+            <td colspan="2"><label id="lname_msg" class="error_msg"></label></td>
+          </tr>
+          <tr>
+            <td class="redcolor">Last Name:</td>
+            <td> <input type="text" name="lname" id="lname" size="30"></td>
+          </tr>
+
+          <tr>
+            <td><input type="button" name="submit" value="Add" onclick="return validateForm()"></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+    <table>
+      <tbody>
+        <tr>
+          <td><label id="id_input" name="id_input"></td></tr>
+<tr><td><label id="id_fname" name="id_fname"></td></tr>
+<tr><td><label id="id_lname" name="id_lname"></td></tr>
+</tbody>
+  </table>
+</div>
+</body>
+
+</html>
